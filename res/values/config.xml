@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string
+        name="default_url">http://feeds.feedburner.com/mobile-tuts-summary?format=xml
+    </string>
+</resources>

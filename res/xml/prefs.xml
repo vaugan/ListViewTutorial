@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/background_updating">
+        <CheckBoxPreference
+            android:title="@string/pref_title_background_update_flag"
+            android:summary="@string/pref_summary_background_update_flag"
+            android:key="@string/pref_key_flag_background_update" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/display_prefs">
+        <CheckBoxPreference
+            android:summary="@string/pref_summary_only_unread"
+            android:title="@string/pref_title_only_unread"
+            android:key="@string/pref_key_only_unread" />
+    </PreferenceCategory>
+</PreferenceScreen>
